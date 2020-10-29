@@ -10,12 +10,12 @@ main(int argc, char **argv)
   char *a = malloc(size);
   printf("Allocate 4GB \n");
   memset(a, 'a', size);
-  printf("Sleep for next 18s \n");
-  sleep(18);
+  printf("Sleep for next 15s \n");
+  sleep(15);
   printf("Free memory 4GB \n");
   free(a);
   printf("Wait 10s before exit \n");
   sleep(10);
-  printf("Exiting...\n");
+  printf("Exiting... \n");
   return 0;
 }
